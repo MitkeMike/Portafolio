@@ -6,6 +6,6 @@
 *Javascript
 *Flex-box
 ## Hecho por:
-###Mike Mitchel
+### Mike Mitchel
 
 ### Linkedin: https://www.linkedin.com/in/mike-mitchel69/
