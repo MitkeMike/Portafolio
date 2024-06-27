@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="header__menu">
+            <a class="header__menu__link" href="index.html">Inicio</a>
+            <a class="header__menu__link" href="about.html">Sobre mí</a>
+            <a class="header__menu__link" href="curriculum.html">Currículum</a>
+            <a class="header__menu__link" href="contact.html">Contacto</a>
+        </nav>
+        <div class="header__hamburger" id="hamburger">
+            &#9776;
+        </div>
+    </header>
+    <main class="contacto">
+        <section class="contacto__contenido">
+            <h1 class="contacto__contenido__titulo">Contáctame</h1>
+            <form id="contactForm" class="contacto__form" action="https://formspree.io/f/xdknnvjp" method="POST">
+                <label for="name">Nombre</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Correo Electrónico</label>
+                <input type="email" id="email" name="_replyto" required>
+
+                <label for="message">Mensaje</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+            <div id="notification" class="notification"></div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>Desarrollado por Mike Mitchel</p>
+    </footer>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
